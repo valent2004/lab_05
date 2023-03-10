@@ -1,0 +1,68 @@
+.builder
+{
+    opacity: 0.1;
+}
+
+.window
+{
+    border: 1px solid grey;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.title
+{
+    color:rgb(0, 145, 170);
+    float: left;
+}
+
+.times
+{
+    float: right;
+    background-color: rgb(100, 100, 100);
+    margin-right: 5px;
+}
+
+.bodyer
+{
+    margin-top: 3%;
+}
+
+input, select
+{
+    width: 70%;
+    height: 30px;
+}
+
+input.files
+{
+    border: 1px solid grey;
+    height: 50px;
+    text-indent: 10px;
+}
+
+.header
+{
+    border: 1px solid grey;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+label
+{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.image
+{
+    border: 1px solid grey;
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+}
+
+input
+{
+    text-align: center;
+}

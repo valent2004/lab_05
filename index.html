@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="buttons.css">
+</head>
+<body>
+    <div class = "buildier">
+        <div class = "window">
+            <div class="header">
+                <label class="title">Fridges and RAMs</label>
+                <div class="times">&times;</div>
+            </div>
+            <div class="bodyer">
+                <center><label for="name">Fridges and RAMs(name):</label>
+                <br><input type="text" id="name" name="name" required minlength="10" maxlength="1000" size="10" placeholder="Input the name of fridges of RAMs">
+                <br><label for="name">Fridges and RAMs(height and width):</label>
+                <br><input type="text" id="name" name="name" required minlength="1" maxlength="5" size="10" placeholder="Input the square of fridges of RAMs(max 10 000)">
+                <br><label for="cars">Choose a thing:</label>
+                <br><select id="cars" name="car" >
+                    <option value="Fridge">Fridge</option>
+                    <option value="RAM">RAM</option>
+                </select>
+                <div class="image"></div>
+                <br><label for="cars">Select a photo:</label>
+                <br><input class="files" type="file"></center>
+            </div>
+            <div class="footer">
+                <center><button>Confirm</button></center>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
